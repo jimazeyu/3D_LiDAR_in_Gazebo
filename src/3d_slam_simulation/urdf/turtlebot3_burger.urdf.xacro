@@ -132,7 +132,7 @@
   <link name="imu_link"/>
 
   <xacro:include filename="$(find 3d_slam_simulation)/urdf/VLP-16.urdf.xacro"/>
-  <xacro:VLP-16 parent="base_link" name="velodyne" topic="/velodyne_points" hz="10" samples="440" gpu="false">
+  <xacro:VLP-16 parent="base_link" name="velodyne" topic="/velodyne_points" hz="10" samples="440" gpu="true">
     <origin xyz="0 0 0.2" rpy="0 0 0" />
   </xacro:VLP-16>
 
